@@ -1,43 +1,61 @@
 extends: conditional
-message: "Make sure '%s' is defined somewhere."
+message: "Define acronyms and abbreviations (such as '%s') on first occurrence if they're likely to be unfamiliar."
+link: 'https://www.ibm.com/developerworks/library/styleguidelines/index.html#N100DC'
 level: suggestion
 ignorecase: false
 # Ensures that the existence of 'first' implies the existence of 'second'.
-first: '\b([A-Z]{3,5})\b'
-second: '(?:\b[A-Z][a-z]+ )+\(([A-Z]{3,5})\)'
+first: '\b([A-Z]{3,5}s?)\b'
+second: '\(([A-Z]{3,5}s?)\)'
 # ... with the exception of these:
 exceptions:
-  - CNOT
+  - API
+  - ASP
+  - CLI
   - CPU
+  - CNOT
   - CSS
-  - CX
-  - CZ
+  - CSV
   - DEBUG
+  - DOM
+  - DPI
   - FAQ
+  - GCC
+  - GDB
   - GET
   - GPU
+  - GTK
   - GUI
   - HTML
   - HTTP
   - HTTPS
   - IBM
+  - IDE
+  - JAR
   - JSON
   - JSX
   - LESS
   - LLDB
+  - NBQA
   - NET
   - NOTE
+  - NVDA
+  - OSS
   - PATH
   - PDF
   - PHP
-  - PIN
   - POST
+  - QPU
+  - RAM
+  - REPL
   - RSA
-  - RX
-  - RZ
-  - RY
   - SCM
+  - SCSS
+  - SDK
+  - SQL
+  - SSH
+  - SSL
   - SVG
+  - SWAT
   - TBD
   - TCP
   - TODO
