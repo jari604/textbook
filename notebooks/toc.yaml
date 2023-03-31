@@ -39,6 +39,49 @@
 #       # Path to source notebook, relative to this file
 #       url: /my-course/my-notebook
 
+
+- title: Quantum algorithms
+  id: quantum-algorithms
+  url: /algorithms
+  type: course
+  overviewInfo:
+    thumbnailUrl: /algorithms/images/hero.png
+    description:
+      short: |
+        A collection of quantum algorithms.
+      long: |
+        Both beginners and experts will find this compendium of quantum
+        algorithms a useful reference.
+    prerequisites:
+      - title: Understanding quantum information and computation
+        description: |
+          This free course covers quantum information at a detailed
+          mathematical level. Explore quantum information, quantum algorithms,
+          and how to understand and mitigate noise.
+        link: https://qiskit.org/learn/course/basics-quantum-information/
+    externalRecommendedReadings:
+      - title: Quantum Computation and Quantum Information (Chapters 4-6) 
+        author: Michael Nielsen, et al.
+        link: http://mmrc.amss.cas.cn/tlb/201702/W020170224608149940643.pdf
+      - title: An Introduction to Quantum Computing (Chapters 5-8) 
+        author: Phillip Kaye, et al.
+        link: http://mmrc.amss.cas.cn/tlb/201702/W020170224608149125645.pdf
+      - title: Quantum Information Processing — Quantum Algorithms I 
+        author: Richard Cleve
+        link: http://cleve.iqc.uwaterloo.ca/resources/QIC-710-F21/Qic710QuantumAlgorithmsPart1.pdf
+      - title: Quantum Information Processing — Quantum Algorithms II 
+        author: Richard Cleve
+        link: http://cleve.iqc.uwaterloo.ca/resources/QIC-710-F21/Qic710QuantumAlgorithmsPart2.pdf
+      - title: Quantum Information Processing — Quantum Algorithms III 
+        author: Richard Cleve
+        link: http://cleve.iqc.uwaterloo.ca/resources/QIC-710-F21/Qic710QuantumAlgorithmsPart3.pdf
+  sections:
+    - title: Grover's algorithm
+      id: grovers-algorithm
+      uuid: eebb7488-b519-11ec-b909-0242ac120002
+      url: /algorithms/grover
+
+
 - title: Basics of quantum information
   subtitle: "Unit 1: Basics of quantum information"
   type: course
